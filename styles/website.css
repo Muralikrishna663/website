@@ -1,11 +1,37 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color:lightgray ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 1000px;
 }
-
-.inputText{
-  background-color: green;
-  color: white;
+.pizza-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 12px;
+}
+.projects {
+  height: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.link-page {
+  margin-left: 8px;
+}
+.css-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+.description {
   text-align: center;
+}
+.description-box {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(40, 115, 221);
+  color: white;
   font-size: 20px;
 }
