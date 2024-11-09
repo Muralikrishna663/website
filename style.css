@@ -1,0 +1,128 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1e1f6; /* Light pink background */
+    color: #3e1c4b; /* Dark purple text */
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #9b4d96; /* Purple header */
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+
+h2 {
+    color: #9b4d96; /* Purple text */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Project Section */
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h3 {
+    font-size: 1.6rem;
+    color: #ff6ec7; /* Pink text */
+}
+
+.project p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.project a {
+    color: #9b4d96; /* Purple links */
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.project a:hover {
+    color: #ff6ec7; /* Pink hover effect */
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3e1c4b; /* Dark purple footer */
+    color: #fff;
+}
+
+#contact a {
+    color: #9b4d96; /* Purple links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #ff6ec7; /* Pink hover effect */
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    header, section {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+}
